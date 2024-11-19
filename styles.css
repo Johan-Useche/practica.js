@@ -1,0 +1,28 @@
+/* importar una fotografia*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #000000;
+    color: aqua;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+    
+}
+
+#count-botones button{
+    padding:  15px 30px;
+    border:aquas;
+    background: #021f3a;
+    color:#ffffff;
+    cursor: pointer;
+}
